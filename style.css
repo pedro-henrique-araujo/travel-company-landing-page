@@ -1,6 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Volkhov:wght@700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@600&family=Poppins:wght@400;500;600;700&family=Volkhov:wght@700&display=swap');
 
 * {
   font-family: "Poppins", sans-serif;
@@ -71,7 +69,8 @@ ul:nth-child(3) {
 
 li a {
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
   font-size: 17px;
   color: #212832;
 }
@@ -252,6 +251,7 @@ header p {
 }
 
 .category .card .label {
+  font-family: "Open Sans", sans-serif;
   font-weight: 600;
   font-size: 20px;
   line-height: 27px;
@@ -825,7 +825,7 @@ header p {
 }
 
 .subscribe .email-input-container input::placeholder {
-  font-family: "Montserrat" "Poppins" sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #39425d;
   font-weight: 400;
   font-size: 14px;
